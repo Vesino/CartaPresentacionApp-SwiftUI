@@ -13,6 +13,8 @@
 		C733FE1E25757AF100987885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C733FE1D25757AF100987885 /* Assets.xcassets */; };
 		C733FE2125757AF100987885 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C733FE2025757AF100987885 /* Preview Assets.xcassets */; };
 		C733FE2425757AF100987885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C733FE2225757AF100987885 /* LaunchScreen.storyboard */; };
+		C733FE2D25757F0B00987885 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C733FE2C25757F0B00987885 /* Pacifico-Regular.ttf */; };
+		C733FE2F2575888800987885 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C733FE2E2575888800987885 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C733FE2025757AF100987885 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C733FE2325757AF100987885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C733FE2525757AF100987885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C733FE2C25757F0B00987885 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		C733FE2E2575888800987885 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		C733FE1625757AEE00987885 /* LuisVargasCard */ = {
 			isa = PBXGroup;
 			children = (
+				C733FE2B25757EFC00987885 /* fonts */,
 				C733FE1725757AEE00987885 /* AppDelegate.swift */,
 				C733FE1925757AEE00987885 /* SceneDelegate.swift */,
 				C733FE1B25757AEE00987885 /* ContentView.swift */,
@@ -63,6 +68,7 @@
 				C733FE2225757AF100987885 /* LaunchScreen.storyboard */,
 				C733FE2525757AF100987885 /* Info.plist */,
 				C733FE1F25757AF100987885 /* Preview Content */,
+				C733FE2E2575888800987885 /* InfoView.swift */,
 			);
 			path = LuisVargasCard;
 			sourceTree = "<group>";
@@ -73,6 +79,14 @@
 				C733FE2025757AF100987885 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C733FE2B25757EFC00987885 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C733FE2C25757F0B00987885 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C733FE2425757AF100987885 /* LaunchScreen.storyboard in Resources */,
+				C733FE2D25757F0B00987885 /* Pacifico-Regular.ttf in Resources */,
 				C733FE2125757AF100987885 /* Preview Assets.xcassets in Resources */,
 				C733FE1E25757AF100987885 /* Assets.xcassets in Resources */,
 			);
@@ -146,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C733FE2F2575888800987885 /* InfoView.swift in Sources */,
 				C733FE1825757AEE00987885 /* AppDelegate.swift in Sources */,
 				C733FE1A25757AEE00987885 /* SceneDelegate.swift in Sources */,
 				C733FE1C25757AEE00987885 /* ContentView.swift in Sources */,
